@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    font-size: 12pt;
+
+}
+
+#menu-view{
+    color: white;
+    background: #6F77ED;
+    border: 5pt solid black;
+    border-radius: 0.35em;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 16pt;
+}
+
+#start, #minute{
+    background: white;
+    border: 2pt solid black;
+}
+
+#start{
+    width: 100px;
+    margin-top: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#game-view.hidden{
+    display: none;
+}
+
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: black;
+    color: white; 
+    font: 14pt;
+    border-radius: 0.5em;
+    margin-left: 0px;
+    margin-bottom: 30px;
+
+}
+
+#main-btn, #refresh{
+    background: white;
+    padding: 8px;
+    font: 12pt;
+}
+
+#game-view{
+    border-left: 5pt solid black;
+    border-top-left-radius: 1rem;
+    border-right: 5pt solid black;
+    border-top-right-radius: 1rem;
+    border-bottom: 5pt solid black;
+    padding-bottom: 20px;   
+}
+
+.game>div{
+    width: 220px;
+    height: 95px;
+    border: 0.35em solid #698733;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 1em;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+img {
+    object-fit: contain;
+    height: 85%;
+    padding-top: 6px;
+}
+
+div:hover{
+    cursor: pointer;
+}
